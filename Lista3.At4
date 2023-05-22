@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner teclado = new Scanner(System.in);
+
+        int numero;
+           
+        System.out.println("Por Favor, digite um numero inteiro: ");
+            numero = teclado.nextInt();
+
+            if(numero % 2 == 0){
+                System.out.println("Ele é um par");
+            } else{
+                System.out.println("Ele é um impar");
+            } if( numero > 0) {
+                System.out.println("É positivo");
+            } else{
+                System.out.println("É negativo");
+            }
+
+        
+    }
+}
