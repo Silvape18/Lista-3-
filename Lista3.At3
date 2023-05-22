@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite um numero: ");
+             Double entrada1 = teclado.nextDouble();
+        System.out.println("digite outro numero: ");
+             Double entrada2 = teclado.nextDouble();
+
+             if(entrada1 % entrada2 == 0 || entrada2 % entrada1 == 0){
+                System.out.println("Eles são multiplos");
+             } else{
+                System.out.println("Não São multiplos");
+             }
+             
+        
+    }
+}
